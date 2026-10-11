@@ -1,0 +1,42 @@
+{
+  "initial_free_raw_values": [
+    0.4,
+    0.4
+  ],
+  "initial_fixed_load_count": 1,
+  "all_stages_accepted": true,
+  "final_saved_model_residuals": {
+    "phase_sum": 2.220446049250313e-16,
+    "phase_filter_definition": 3.69057562288333e-12,
+    "heaviside_projection_definition": 2.1625068402642e-10,
+    "solid_lower": 0.0,
+    "solid_upper": 0.0,
+    "void_lower": 0.0,
+    "void_upper": 0.0,
+    "equilibrium": 1.82215785700119e-11,
+    "volume_constraint": 1.5543122344752192e-15,
+    "full_solid_compliance_lower_bound": 0.0,
+    "load_direction": 0.0,
+    "grayness_constraint": 0.0,
+    "gdp_solid_displacement_map_equalities": 6.002665031701326e-11
+  },
+  "max_final_saved_model_residual": 2.1625068402642e-10,
+  "new_compliance": 225.13516627884113,
+  "old_compliance": 225.13516627884113,
+  "compliance_change_relative_to_old_pct": 0.0,
+  "new_grayness": 0.005023781876944117,
+  "new_volume_fraction": 0.40000000000000036,
+  "comparisons": {
+    "previous_gdp": {
+      "mean_absolute_phase_difference": 0.0,
+      "different_phase_area_fraction": 0.0,
+      "solid_intersection_over_union": 1.0
+    },
+    "projected_simp": {
+      "mean_absolute_phase_difference": 0.16418551811707247,
+      "different_phase_area_fraction": 0.165,
+      "solid_intersection_over_union": 0.6586206896551724
+    }
+  },
+  "protected_files_unchanged": true
+}

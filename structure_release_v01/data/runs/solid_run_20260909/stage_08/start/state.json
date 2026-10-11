@@ -1,0 +1,42 @@
+{
+  "stage_index": 8,
+  "stage": {
+    "penalty": 0,
+    "grayness_limit": 0.11,
+    "heaviside_beta": 5,
+    "solid_displacement_coupling_penalty": 0.0,
+    "solid_displacement_coupling_phase_law": "simp",
+    "solid_displacement_coupling_phase_exponent": 2,
+    "solid_displacement_coupling_ramp_q": 8.0,
+    "solid_displacement_coupling_norm": "bound",
+    "solid_displacement_coupling_mode": "equality"
+  },
+  "previous_stage": 7,
+  "initial_source": "C:\\Users\\JQ\\Documents\\拓扑优化\\paper\\figures\\figure_1\\panel_c\\solid_run_20260909\\stage_07\\solution.npz",
+  "local_displacement_reinitialized": false,
+  "kind": "stage_start",
+  "termination_condition": "not_run",
+  "volume_fraction": 0.40025889334766274,
+  "global_grayness": 0.11042746760230372,
+  "continuous_compliance": 220.15753229565578,
+  "ys_min": 6.293948961309316e-06,
+  "ys_max": 0.9999960237636001,
+  "max_constraint_violation": 15.406212133721084,
+  "max_bound_violation": 0.0,
+  "constraint_group_max": {
+    "phase_sum": 0.0,
+    "phase_filter_definition": 6.306019374457961e-07,
+    "heaviside_projection_definition": 2.220446049250313e-16,
+    "solid_lower": 0.0,
+    "solid_upper": 0.0,
+    "void_lower": 0.0,
+    "void_upper": 0.0,
+    "equilibrium": 5.4333879968521304e-12,
+    "volume_constraint": 0.0007766800429884757,
+    "full_solid_compliance_lower_bound": 0.0,
+    "load_direction": 0.0,
+    "grayness_constraint": 0.00042746760230380487,
+    "gdp_solid_displacement_map_equalities": 15.406212133721084
+  },
+  "field_sha256": "4c820e64e13b44c028986a51c4ae339d8f6b670f8740e87a4b8c53dfd7df7b87"
+}

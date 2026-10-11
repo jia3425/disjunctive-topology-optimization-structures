@@ -1,0 +1,14 @@
+{
+  "stage": 3,
+  "beta": 4.0,
+  "penalty": 3.0,
+  "compliance": 245.36418547142773,
+  "volume_fraction": 0.39999999997612323,
+  "global_grayness": 0.1281159386226684,
+  "equilibrium_residual_inf": 1.2780425606706558e-08,
+  "fixed_design_fe_compliance": 245.36418548699535,
+  "fe_compliance_relative_error": 6.344700155559706e-11,
+  "termination_condition": "optimal",
+  "accepted": true,
+  "elapsed_seconds": 42.48651229997631
+}

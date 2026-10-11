@@ -1,0 +1,201 @@
+{
+  "config": {
+    "benchmark": "mbb",
+    "nelx": 60,
+    "nely": 20,
+    "length": 3,
+    "height": 1,
+    "volfrac": 0.4,
+    "displacement_bound": 10000.0,
+    "e0": 1.0,
+    "nu": 0.3,
+    "ipopt_tol": 1e-07,
+    "ipopt_max_iter": 1200,
+    "tee": true,
+    "use_element_connectivity": false,
+    "fix_load_elements": true,
+    "phase_filter_radius": 1.5,
+    "heaviside_eta": 0.5,
+    "use_tight_displacement_bounds": true,
+    "tight_displacement_bound_safety_factor": 50,
+    "tight_displacement_bound_floor_fraction": 0.001,
+    "enforce_full_solid_compliance_lower_bound": true
+  },
+  "stages": [
+    {
+      "penalty": 0,
+      "grayness_limit": 0.96,
+      "heaviside_beta": 1,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 1,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.8,
+      "heaviside_beta": 1.5,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 1,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.55,
+      "heaviside_beta": 2,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 1,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.35,
+      "heaviside_beta": 2.5,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 1,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.22,
+      "heaviside_beta": 3,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 1,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.22,
+      "heaviside_beta": 3,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.15,
+      "heaviside_beta": 4,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.11,
+      "heaviside_beta": 5,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.08,
+      "heaviside_beta": 6,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.04,
+      "heaviside_beta": 8,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.03,
+      "heaviside_beta": 10,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.02,
+      "heaviside_beta": 12,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.015,
+      "heaviside_beta": 14,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    },
+    {
+      "penalty": 0,
+      "grayness_limit": 0.01,
+      "heaviside_beta": 16,
+      "solid_displacement_coupling_penalty": 0.0,
+      "solid_displacement_coupling_phase_law": "simp",
+      "solid_displacement_coupling_phase_exponent": 2,
+      "solid_displacement_coupling_ramp_q": 8.0,
+      "solid_displacement_coupling_norm": "bound",
+      "solid_displacement_coupling_mode": "equality"
+    }
+  ],
+  "initialization": "No old solution loaded. All free raw design values 0.4, fixed load elements 1, initial displacement zero.",
+  "initial_solution_file": null,
+  "initial_state_is_equilibrium": false,
+  "p_transition": "At p1 to p2 only, initialize us to ys**2 times element displacement, reusing the established route.",
+  "solver_extra_options": {
+    "max_cpu_time": 600,
+    "threads": 1
+  },
+  "protected_hashes": {
+    "C:\\Users\\JQ\\Documents\\拓扑优化\\paper\\figures\\figure_1\\panel_c\\solid_run_20260909\\run_solid.py": "39051e6ab187370f72257da7203d43a21ba80714ca8b318ff01f3fc7c7e9bde4",
+    "D:\\Case\\TPO\\src\\tpo\\gdp_hull_relaxation.py": "1e779a24666dab4680b16182917f9d7ee85b325b5a31a00f356eaf6b149fad7b",
+    "D:\\Case\\TPO\\src\\tpo\\gdp_hull_relaxation_io.py": "78f5d83bb3a6a25ebb2721b578ed74a836f3e32796f0582f498433c41dba6d18",
+    "D:\\Case\\TPO\\src\\tpo\\runtime.py": "119c06cba89e7c3bdb744855b1384e40879cddf1495d9566d93ae1e7f7d96d2a",
+    "D:\\Case\\TPO\\results\\gdp_hull_relaxation_projected_weak_grayness_mbb_60x20_uniform_p1_seed\\solution.npz": "43ddb9681d75342c91a4c8285c9d1911dcbd1a2c816a57ec6fad141c68f2b0bc",
+    "D:\\Case\\TPO\\results\\gdp_hull_relaxation_projected_weak_grayness_mbb_60x20_uniform_p1_seed\\summary.json": "7d0055230937b5fd77426ca6bb886ad9a8dfa5e05ee54c0500ed984854674eef",
+    "D:\\Case\\TPO\\results\\gdp_hull_relaxation_projected_weak_grayness_mbb_60x20_uniform_p1_to_p2\\solution.npz": "b8ffa66eb246dd2d0b0e6e111deac538a98dd0a77332ea0b0893d2ed4af49609",
+    "D:\\Case\\TPO\\results\\gdp_hull_relaxation_projected_weak_grayness_mbb_60x20_uniform_p1_to_p2\\summary.json": "5343b3a446aff917464cd57954706c92f422be0f4c63ffd9485f4db9833e94d3",
+    "C:\\Users\\JQ\\Documents\\拓扑优化\\paper\\figures\\figure_2\\panel_b\\figure_2b_mbb.svg": "3cf2b9f92b2220c5167eff870633fac2b7181255c26baae5c917725973f10422",
+    "C:\\Users\\JQ\\Documents\\拓扑优化\\paper\\figures\\figure_2\\panel_b\\figure_2b_mbb.png": "65fa70bd621ece8411d3df2abd9cb0c7b6954abdd283b41c0dacce66f789cfec"
+  },
+  "driver": "D:\\Case\\TPO\\scripts\\run_gdp_uniform_paper.py"
+}

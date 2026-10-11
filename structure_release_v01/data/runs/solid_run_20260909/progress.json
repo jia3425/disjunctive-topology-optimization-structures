@@ -1,0 +1,132 @@
+{
+  "status": "finished",
+  "finished": [
+    {
+      "stage_index": 1,
+      "termination_condition": "optimal",
+      "global_grayness": 0.5334713670410832,
+      "volume_fraction": 0.3999999999999999,
+      "continuous_compliance": 177.7055767916604,
+      "max_constraint_violation": 3.814053517459115e-08,
+      "elapsed_seconds": 112.83336459996644
+    },
+    {
+      "stage_index": 2,
+      "termination_condition": "optimal",
+      "global_grayness": 0.5323093683422705,
+      "volume_fraction": 0.3999999999999997,
+      "continuous_compliance": 177.66579865220626,
+      "max_constraint_violation": 1.7637979965456907e-10,
+      "elapsed_seconds": 144.9515838000225
+    },
+    {
+      "stage_index": 3,
+      "termination_condition": "optimal",
+      "global_grayness": 0.53057478299853,
+      "volume_fraction": 0.4000000000000003,
+      "continuous_compliance": 177.61521377005903,
+      "max_constraint_violation": 6.195413959630969e-09,
+      "elapsed_seconds": 54.88839810003992
+    },
+    {
+      "stage_index": 4,
+      "termination_condition": "optimal",
+      "global_grayness": 0.3499999660419774,
+      "volume_fraction": 0.3999999999999995,
+      "continuous_compliance": 181.79491542521018,
+      "max_constraint_violation": 1.2199296989257036e-08,
+      "elapsed_seconds": 101.58398220001254
+    },
+    {
+      "stage_index": 5,
+      "termination_condition": "optimal",
+      "global_grayness": 0.21999999758069283,
+      "volume_fraction": 0.4000000000000004,
+      "continuous_compliance": 196.23003233415858,
+      "max_constraint_violation": 1.061333548824095e-09,
+      "elapsed_seconds": 114.54106610000599
+    },
+    {
+      "stage_index": 6,
+      "termination_condition": "optimal",
+      "global_grayness": 0.21999983939149365,
+      "volume_fraction": 0.4000000000000006,
+      "continuous_compliance": 222.53051262690298,
+      "max_constraint_violation": 3.495334732761535e-08,
+      "elapsed_seconds": 265.3680461999029
+    },
+    {
+      "stage_index": 7,
+      "termination_condition": "optimal",
+      "global_grayness": 0.14999999389254887,
+      "volume_fraction": 0.3999999999999998,
+      "continuous_compliance": 220.15753229565578,
+      "max_constraint_violation": 1.7834096865954052e-08,
+      "elapsed_seconds": 129.1632805999834
+    },
+    {
+      "stage_index": 8,
+      "termination_condition": "optimal",
+      "global_grayness": 0.10999999324715086,
+      "volume_fraction": 0.4000000000000001,
+      "continuous_compliance": 216.64809779134382,
+      "max_constraint_violation": 2.4789809316416722e-08,
+      "elapsed_seconds": 33.348788299947046
+    },
+    {
+      "stage_index": 9,
+      "termination_condition": "optimal",
+      "global_grayness": 0.079999991551291,
+      "volume_fraction": 0.3999999999999997,
+      "continuous_compliance": 214.03938345455447,
+      "max_constraint_violation": 9.686555912935546e-08,
+      "elapsed_seconds": 28.963904400006868
+    },
+    {
+      "stage_index": 10,
+      "termination_condition": "optimal",
+      "global_grayness": 0.039999980773465275,
+      "volume_fraction": 0.4,
+      "continuous_compliance": 211.30574457579047,
+      "max_constraint_violation": 6.224411208677338e-08,
+      "elapsed_seconds": 86.33809550001752
+    },
+    {
+      "stage_index": 11,
+      "termination_condition": "maxIterations",
+      "global_grayness": 0.029999140426410734,
+      "volume_fraction": 0.39999998771965767,
+      "continuous_compliance": 212.41917034304328,
+      "max_constraint_violation": 9.438967445181108e-06,
+      "elapsed_seconds": 318.1721496999962
+    },
+    {
+      "stage_index": 12,
+      "termination_condition": "maxIterations",
+      "global_grayness": 0.023112188906113003,
+      "volume_fraction": 0.4000002511965526,
+      "continuous_compliance": 211.89869445364678,
+      "max_constraint_violation": 0.018176774411699625,
+      "elapsed_seconds": 313.54262239998206
+    },
+    {
+      "stage_index": 13,
+      "termination_condition": "maxIterations",
+      "global_grayness": 0.014145615402948557,
+      "volume_fraction": 0.40000000000000197,
+      "continuous_compliance": 209.01652341889073,
+      "max_constraint_violation": 1.6153130824817104e-07,
+      "elapsed_seconds": 346.086252200068
+    },
+    {
+      "stage_index": 14,
+      "termination_condition": "optimal",
+      "global_grayness": 0.007998974250627117,
+      "volume_fraction": 0.4000000000000001,
+      "continuous_compliance": 209.1540444077738,
+      "max_constraint_violation": 9.882454034394608e-11,
+      "elapsed_seconds": 201.5584389999276
+    }
+  ],
+  "source_hashes_unchanged": true
+}

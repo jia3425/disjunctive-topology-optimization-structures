@@ -1,0 +1,68 @@
+{
+  "method": "SIMP with density filter and Heaviside projection",
+  "benchmark": "lbracket",
+  "config": {
+    "benchmark": "lbracket",
+    "nelx": 60,
+    "nely": 60,
+    "length": 2.0,
+    "height": 2.0,
+    "volfrac": 0.4,
+    "rmin": 1.5,
+    "xmin": 0.001,
+    "e0": 1.0,
+    "emin": 1e-06,
+    "nu": 0.3,
+    "penalties": [
+      3.0
+    ]
+  },
+  "betas": [
+    12.0
+  ],
+  "eta": 0.5,
+  "penalty": 3.0,
+  "grayness_constraint": false,
+  "initialization": "warm start from saved raw density; re-equilibrated at each beta",
+  "initial_source": "D:\\Case\\TPO\\results\\simp_projected_lbracket_60x60_p3_b8_oc_20260910_191000\\stage_01_beta_8\\solution.npz",
+  "seed_sha256": "f730ccdd23b76b19d9e68283d8d8fadfa8bce35d69756bd85151dfcaf907b473",
+  "original_result_hashes": {
+    "convergence.csv": "0619d388aa96a8a0890a6aaca4a992fcee5aee366d3a5ab50b0e85cacc2ad10e",
+    "density.png": "a752f70627e096742054687ac7679dd8038b6e524127f779436a3f690f6c2f94",
+    "density_evolution.png": "a614e8e3daa80be7d3b03022c55ace4b152d3eee3750fc6cfb5635d1c41793e3",
+    "displacement.png": "8e21190ed6c5c2e21058475436a7ef0601c133f5811d99b74cefcc42647440ce",
+    "leakage_evaluation\\density_energy_scatter.png": "5a19e5a8aaaf828365c1ffcdfbb28164713c448732dd628faa27266d74e94c83",
+    "leakage_evaluation\\density_histogram.png": "fd196d3eab8ed93da6f10e79b32ff21f960bb4f94dce21833339acc39da791fa",
+    "leakage_evaluation\\element_energy.png": "249dd00fa276706ac9087dd87503f5056a6cad1faac520f540251b1dfedcb9b1",
+    "leakage_evaluation\\gray_energy_map.png": "ab5c1ec98b97e007e740fc6081826915ad7b49f3e877947007a68c8e428cfd6a",
+    "leakage_evaluation\\leakage_metrics.csv": "38aefa84e8d49767fb5e77b77c2a93a1481275bde003e4f03788fe3c146ad644",
+    "leakage_evaluation\\leakage_metrics.json": "d7dc72b8725fb99a6e371d5b95184424f451d06e92e3e3f8c298f849eb0ab977",
+    "leakage_evaluation\\thresholded_density.png": "216d9f56eed5d4e42b4e040962b24d28d22166a630d9bfe131ab61f0b8b544c7",
+    "leakage_evaluation\\void_leakage_energy.png": "1f45ea9f254e408cee2996cd014e13b17d07def7319a6a4134bb5af619a3f520",
+    "leakage_evaluation\\volume_preserving_thresholded_density.png": "d869c5985223172b3d96cfe237b74d52fb8e67b7f989a43656eb5320a381d812",
+    "metrics_summary.csv": "b016282abc2ff1df57ea74c8d0f4c4523afa975dbb7abfb8c394718a39bdc354",
+    "objective_history.png": "426df4846c296db1b1e3fbd52fa29c186a66386fdfa7d8bafdf84b117e15fd03",
+    "solution.npz": "47cbcc1081fb15fc85d9254523bc46cfc89750365eb8c5a4d80a2837d28cc3ac",
+    "stage_density_p1.png": "7aee2d51d309e1d84b8e90122929f7e6f4a2b943c259027f2bc61033855da575",
+    "stage_density_p2.png": "fef53fe05505d8fa9b9f741b8bda5408c53964a0bcd760ba6de809ac89125516",
+    "stage_density_p3.png": "a752f70627e096742054687ac7679dd8038b6e524127f779436a3f690f6c2f94",
+    "summary.json": "078c77575adbcd2cc60583084c0f5095e36221ae59cc63ea2d15e0eb118cc162",
+    "time_history.png": "6a11af9eef48c7ea6be39cf2f8a952ffcbdefa239469c39fc3c5c37fb5eec7a6",
+    "volume_history.png": "1a87bd8cdbddcf9697b8659847a77a5f5becaa9694ffcf2bcf915556a1baf24a"
+  },
+  "oc_initializer": {
+    "max_iter": 200,
+    "move": 0.03,
+    "final_acceptance": "original full-space NLP"
+  },
+  "solver": {
+    "tol": 1e-07,
+    "max_iter": 1200,
+    "max_cpu_time_per_stage": 180.0,
+    "linear_solver": "mumps",
+    "acceptable_iter": 0,
+    "bound_relax_factor": 0
+  },
+  "projection": "(tanh(beta*eta)+tanh(beta*(filtered_density-eta)))/(tanh(beta*eta)+tanh(beta*(1-eta)))",
+  "status": "running"
+}

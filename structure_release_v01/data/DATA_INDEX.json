@@ -1,0 +1,2030 @@
+{
+  "schema_version": "1.0",
+  "prepared_date": "2026-10-11",
+  "scope": "Six selected structural comparison runs and the distinct 14-stage Figure 1c/Figure 2e trajectory",
+  "path_base": "structure_release_v01",
+  "copy_policy": {
+    "extensions": [
+      ".npz",
+      ".json",
+      ".csv"
+    ],
+    "log_names": [
+      "solver.log",
+      "solver.out.log",
+      "solver.err.log",
+      "run.stdout.log",
+      "run.stderr.log"
+    ],
+    "excluded": [
+      "images",
+      "temporary files",
+      "Python sources",
+      "caches",
+      "AI material"
+    ],
+    "preservation": "All selected files copied byte-for-byte; archived SHA-256 checked against original files."
+  },
+  "validation": {
+    "copied_file_count": 239,
+    "copied_total_bytes": 23222845,
+    "copy_hash_checks": "all passed during copy",
+    "optimization_executed": false,
+    "side_effecting_scripts_imported": false,
+    "end_to_end_reproduction_claimed": false,
+    "additional_read_only_field_check": "Read original Figure 2c GDP ys[117] with numpy.load(allow_pickle=False); no field edits."
+  },
+  "interpretation_warnings": [
+    "An optimal local NLP termination is not a global optimality proof.",
+    "Historical unaccepted/unfinished stages remain archival solver records and must not be described as certified or converged solutions.",
+    "Original absolute paths and stale run status flags in copied metadata are preserved; interpret per-stage status with the guide.",
+    "SIMP and GDP configurations and continuation/initialization schedules are not fully matched ablations.",
+    "The three SIMP external seed paths are documented but are outside the seven copied directories.",
+    "Figure 2d uses postprocessing of the selected Figure 2a raw fields; its derived stress arrays and scripts are outside this raw-run copy scope."
+  ],
+  "datasets": [
+    {
+      "original_root": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431",
+      "files": [
+        {
+          "relative_path": "converged_beta14/export_check.json",
+          "sha256": "129f91ae6ff3843fad3b16e7d33d12b99d36d5ef9047c50adb2284ad8fad0c32",
+          "bytes": 231,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/export_check.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/export_check.json"
+        },
+        {
+          "relative_path": "converged_beta14/solution.npz",
+          "sha256": "01a1696f26913b44c9c3030ab25fcf135597c675a4590f72db3829ec0b83a42c",
+          "bytes": 68535,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/solution.npz"
+        },
+        {
+          "relative_path": "converged_beta14/summary.json",
+          "sha256": "108f8f4b3b3cbf54fac9d88e0178b6b505445e23c68d703fe3f5865899599aa9",
+          "bytes": 444,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/summary.json"
+        },
+        {
+          "relative_path": "run_config.json",
+          "sha256": "84043af912b800ff1189c599bf712dde32b3a9984036d8ec327a05f1b2ebaacc",
+          "bytes": 3464,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/run_config.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/run_config.json"
+        },
+        {
+          "relative_path": "stage_01_beta_10/solution.npz",
+          "sha256": "3d27c840dddddc2b83a8ed4e91eed8f6add43222d5ab9444fcb8cf73c0e37360",
+          "bytes": 67252,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_01_beta_10/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_01_beta_10/solution.npz"
+        },
+        {
+          "relative_path": "stage_01_beta_10/summary.json",
+          "sha256": "0bea3f66b000d992b4d6ebf8c4e8ac723466eaeb51803da938e481c4dfd3f7b6",
+          "bytes": 443,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_01_beta_10/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_01_beta_10/summary.json"
+        },
+        {
+          "relative_path": "stage_02_beta_12/solution.npz",
+          "sha256": "3e690b151cd8930af79358c3faae80f492f36b80d8fecd25f9ec56d4e890bdb4",
+          "bytes": 68242,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_02_beta_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_02_beta_12/solution.npz"
+        },
+        {
+          "relative_path": "stage_02_beta_12/summary.json",
+          "sha256": "190ae5bf43c28488b4e63399d66899677cbb1eccbac6837edb6b54cb09b6a6a0",
+          "bytes": 444,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_02_beta_12/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_02_beta_12/summary.json"
+        },
+        {
+          "relative_path": "stage_03_beta_14/solution.npz",
+          "sha256": "01a1696f26913b44c9c3030ab25fcf135597c675a4590f72db3829ec0b83a42c",
+          "bytes": 68535,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_03_beta_14/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_03_beta_14/solution.npz"
+        },
+        {
+          "relative_path": "stage_03_beta_14/summary.json",
+          "sha256": "108f8f4b3b3cbf54fac9d88e0178b6b505445e23c68d703fe3f5865899599aa9",
+          "bytes": 444,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_03_beta_14/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_03_beta_14/summary.json"
+        },
+        {
+          "relative_path": "stage_04_beta_16/solution.npz",
+          "sha256": "48db669c0933b0b3ec21ea42e07fa0cd16646402879ea6ed6d31821b2302ff13",
+          "bytes": 69758,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_04_beta_16/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_04_beta_16/solution.npz"
+        },
+        {
+          "relative_path": "stage_04_beta_16/summary.json",
+          "sha256": "1dfafca0b80121955f5b9a6c16582b1fa80c35e00f61b4484c1ffc02ea8c1547",
+          "bytes": 444,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_04_beta_16/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_04_beta_16/summary.json"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "0691f31918f6cb3d5d87ca1f1e93ffda7d4e8d6dcf99f13bbbcb8dcbcbb4dd58",
+          "bytes": 857,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "2d52fd6d3d09e45f5190024e65144d177eb5cd93a28d2064f81f9fa41862a274",
+          "bytes": 5622,
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/summary.json"
+        }
+      ],
+      "archive_root": "data/runs/simp_projected_cantilever_60x20_20260909_181431",
+      "id": "simp_cantilever",
+      "figures": [
+        "Figure 2a (SIMP)",
+        "Figure 2d (SIMP source)"
+      ],
+      "phase_field": "physical_density",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_181431/converged_beta14/solution.npz",
+          "sha256": "01a1696f26913b44c9c3030ab25fcf135597c675a4590f72db3829ec0b83a42c"
+        }
+      ],
+      "selected_or_final_compliance": 208.33843408241825,
+      "recorded_status": "selected beta 14: optimal and accepted",
+      "warnings": [
+        "stage_04_beta_16 is maxIterations and accepted=false; retained for history, not selected as a converged result.",
+        "run_config.json still records status=running; use stage summaries and stage_history.csv for recorded termination."
+      ],
+      "external_seed_record": {
+        "path": "D:/Case/TPO/results/simp_projected_cantilever_60x20_20260909_180758/stage_04_beta_8/solution.npz",
+        "sha256": "27c778a9ff01faea0e43c3880673b7b1b27a2405c8c93de8da5b5756237c9b1c",
+        "included_in_this_seven_run_copy": false,
+        "hash_source": "original run_config.json; external seed itself was not copied or hash-verified in this data task"
+      },
+      "file_count": 14,
+      "total_bytes": 354715
+    },
+    {
+      "original_root": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20",
+      "files": [
+        {
+          "relative_path": "diagnostics.csv",
+          "sha256": "5b40440be2a39ba8fb7b2698e0d2198fffe96376907d5da929f0a2f0f4d2a1c3",
+          "bytes": 1892,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/diagnostics.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/diagnostics.csv"
+        },
+        {
+          "relative_path": "diagnostics.json",
+          "sha256": "0dbc8a8e1b04546075acdfbdbb0aa18022c54420f8040516206538b3750fd262",
+          "bytes": 2251,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/diagnostics.json",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/diagnostics.json"
+        },
+        {
+          "relative_path": "metrics_summary.csv",
+          "sha256": "7ab64e173857b50f4a9acf7ee5bdeb80fe9234872065e1436a10e62f5438b6ed",
+          "bytes": 1156,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/metrics_summary.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/metrics_summary.csv"
+        },
+        {
+          "relative_path": "projected_grayness_metrics.csv",
+          "sha256": "82a69734a4f82dd2560f06a09f3b6f5e59184d4f7a9977dcce06fe6c29155dc7",
+          "bytes": 1999,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/projected_grayness_metrics.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/projected_grayness_metrics.csv"
+        },
+        {
+          "relative_path": "solution.npz",
+          "sha256": "dede93510efa7c2540404bd7d93a5dbf7fba5075e49f47ad03fe0efb526a42ca",
+          "bytes": 203360,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/solution.npz"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "a9e9c12c4ee489ce1d63c0c46880b74a942bf6cd2b2e2bed4f2b1f30fd5d6064",
+          "bytes": 2012,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "32a1030da27fe7048c1febcb755ab76adcb32325e92ab612603cb603a91a86d9",
+          "bytes": 1524,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/summary.json"
+        }
+      ],
+      "archive_root": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20",
+      "id": "gdp_cantilever_8stage",
+      "figures": [
+        "Figure 2a (GDP)",
+        "Figure 2d (GDP source)"
+      ],
+      "phase_field": "ys",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_cantilever_60x20/solution.npz",
+          "sha256": "dede93510efa7c2540404bd7d93a5dbf7fba5075e49f47ad03fe0efb526a42ca"
+        }
+      ],
+      "selected_or_final_compliance": 207.33844799491334,
+      "recorded_status": "all 8 recorded continuation rows report optimal",
+      "warnings": [
+        "Only final field data and stage scalar history are present in this original directory; no stage-1-to-7 field snapshots are archived.",
+        "This is a different run from the 14-stage Figure 1c/Figure 2e trajectory."
+      ],
+      "file_count": 7,
+      "total_bytes": 214194
+    },
+    {
+      "original_root": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209",
+      "files": [
+        {
+          "relative_path": "run_config.json",
+          "sha256": "3087a51eae266f41a3149ca9926642aed0254088b0e6f9da38d177c80c5d69b0",
+          "bytes": 3439,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/run_config.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/run_config.json"
+        },
+        {
+          "relative_path": "stage_01_beta_1/solution.npz",
+          "sha256": "d0d40e5d9b1cdf54029796e76b665818812f491b1b076887eca865d8f8b82ddf",
+          "bytes": 62287,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_01_beta_1/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_01_beta_1/solution.npz"
+        },
+        {
+          "relative_path": "stage_01_beta_1/summary.json",
+          "sha256": "eb9306536e600e5fc925bb567c5d7e03813c3af70563624f15fb263270cfce90",
+          "bytes": 442,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_01_beta_1/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_01_beta_1/summary.json"
+        },
+        {
+          "relative_path": "stage_02_beta_2/solution.npz",
+          "sha256": "ec757b76abdf8f864cfd7f3a10aa87fb310079c91c3524013c367d9535023369",
+          "bytes": 62486,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_02_beta_2/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_02_beta_2/solution.npz"
+        },
+        {
+          "relative_path": "stage_02_beta_2/summary.json",
+          "sha256": "33ca9ef0ba97e628067bd9ba960fd393ec3cd26aed626e30e0fc15f75ad1ac0b",
+          "bytes": 443,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_02_beta_2/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_02_beta_2/summary.json"
+        },
+        {
+          "relative_path": "stage_03_beta_4/solution.npz",
+          "sha256": "a68b2ee689b54bf5cfc207625a6e70d44b70a23fc33ae0229ad4b897173255f8",
+          "bytes": 63508,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_03_beta_4/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_03_beta_4/solution.npz"
+        },
+        {
+          "relative_path": "stage_03_beta_4/summary.json",
+          "sha256": "6413795d113a031dd794df8700f1862983ee81c06725296f2e51f5db9e0b3e0d",
+          "bytes": 442,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_03_beta_4/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_03_beta_4/summary.json"
+        },
+        {
+          "relative_path": "stage_04_beta_6/solution.npz",
+          "sha256": "dc075e8d8f94a8eebac75cb0b3a934d0a3982c3a41d51bb8382faf20d77edbd4",
+          "bytes": 64372,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_04_beta_6/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_04_beta_6/solution.npz"
+        },
+        {
+          "relative_path": "stage_04_beta_6/summary.json",
+          "sha256": "a8f054e59bbc2379fe573cf33846d50b4fa5251c7cf8f2d086a2c39444647818",
+          "bytes": 439,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_04_beta_6/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_04_beta_6/summary.json"
+        },
+        {
+          "relative_path": "stage_05_beta_8/solution.npz",
+          "sha256": "5202b66ab2dc540c42f5f7a409c7fe784bdae5d14ac711af113330931cd9b460",
+          "bytes": 65333,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_05_beta_8/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_05_beta_8/solution.npz"
+        },
+        {
+          "relative_path": "stage_05_beta_8/summary.json",
+          "sha256": "cfe0a72762e08ec5f1f72100ade6a725c274f4e82671e57ebbf89835ce7cbbd1",
+          "bytes": 443,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_05_beta_8/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_05_beta_8/summary.json"
+        },
+        {
+          "relative_path": "stage_06_beta_10/solution.npz",
+          "sha256": "925e3ae7781d1d8811c17318db6d6d42651ade59d1075ff60fa8a2dd1849e626",
+          "bytes": 66376,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_06_beta_10/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_06_beta_10/solution.npz"
+        },
+        {
+          "relative_path": "stage_06_beta_10/summary.json",
+          "sha256": "4b2a31025ded4ff5f0ad8c5ce075fa7dc87759682518b6c4ba469f6adc0279d2",
+          "bytes": 443,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_06_beta_10/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_06_beta_10/summary.json"
+        },
+        {
+          "relative_path": "stage_07_beta_12/solution.npz",
+          "sha256": "719605f42ec481b8ebccbbbf11aac59f5ea1597a1816996930b5d0cdf56bdd10",
+          "bytes": 67633,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/solution.npz"
+        },
+        {
+          "relative_path": "stage_07_beta_12/summary.json",
+          "sha256": "a09393c78494ddb030bf0cdf297d63a31464e698bc4fbe3d708a3cb0742ea03f",
+          "bytes": 447,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/summary.json"
+        },
+        {
+          "relative_path": "stage_08_beta_14/solution.npz",
+          "sha256": "8586fac9a4cbcabe279472a3731586e5ad8defeae6ec32dc2ca5ba8959618e59",
+          "bytes": 69732,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_08_beta_14/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_08_beta_14/solution.npz"
+        },
+        {
+          "relative_path": "stage_08_beta_14/summary.json",
+          "sha256": "6e09ff66241e99feebe40eb35241cde9c54c730e7c8b7c8a1d3b10b35ee68049",
+          "bytes": 448,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_08_beta_14/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_08_beta_14/summary.json"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "1f5e34c3ab729b2369306e884f8b89738fa8ce738bcd7bf4334828c962b2d47a",
+          "bytes": 1517,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "520a0a36f47d2a5eae9636345683b7e3150806e72f2148af00f2d389fa9af413",
+          "bytes": 7606,
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/summary.json"
+        }
+      ],
+      "archive_root": "data/runs/simp_projected_mbb_60x20_20260909_221209",
+      "id": "simp_mbb",
+      "figures": [
+        "Figure 2b (SIMP)"
+      ],
+      "phase_field": "physical_density",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_mbb_60x20_20260909_221209/stage_07_beta_12/solution.npz",
+          "sha256": "719605f42ec481b8ebccbbbf11aac59f5ea1597a1816996930b5d0cdf56bdd10"
+        }
+      ],
+      "selected_or_final_compliance": 227.21225460644035,
+      "recorded_status": "selected beta 12: optimal and accepted",
+      "warnings": [
+        "stage_08_beta_14 is maxIterations and accepted=false; retained for history, not selected as a converged result.",
+        "run_config.json still records status=running; use stage summaries and stage_history.csv for recorded termination."
+      ],
+      "external_seed_record": {
+        "path": "D:/Case/TPO/results/simp_mbb_60x20/solution.npz",
+        "sha256": "2cdd06a2bdfeeec3ef60c8b35e08f9858b737464fe30af217975beb3dfd06711",
+        "included_in_this_seven_run_copy": false,
+        "hash_source": "original run_config.json; external seed itself was not copied or hash-verified in this data task"
+      },
+      "file_count": 19,
+      "total_bytes": 537836
+    },
+    {
+      "original_root": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145",
+      "files": [
+        {
+          "relative_path": "progress.json",
+          "sha256": "272427f11407eb7b5f013f75f9aea9b06577e75d5942cef1f3136b6a1fcb67ad",
+          "bytes": 5073,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/progress.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/progress.json"
+        },
+        {
+          "relative_path": "run_config.json",
+          "sha256": "40d8ccb62b811806d2109700ebfd6e7a3b1498b35759ee090d7cde78bdc33f12",
+          "bytes": 8566,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/run_config.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/run_config.json"
+        },
+        {
+          "relative_path": "solution.npz",
+          "sha256": "b8ffa66eb246dd2d0b0e6e111deac538a98dd0a77332ea0b0893d2ed4af49609",
+          "bytes": 210180,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/solution.npz"
+        },
+        {
+          "relative_path": "stage_00_initial/state.json",
+          "sha256": "ec1e0138c2cb59d84f92a6f3e9771b6edb1acffd0c866fddce710e7ad8f5cc6e",
+          "bytes": 1415,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_00_initial/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_00_initial/state.json"
+        },
+        {
+          "relative_path": "stage_00_initial/state.npz",
+          "sha256": "23bab0305e6975bc56c04533c626c7110c03e57ad347b18d6058b64260cb90f0",
+          "bytes": 73261,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_00_initial/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_00_initial/state.npz"
+        },
+        {
+          "relative_path": "stage_01/solution.npz",
+          "sha256": "c191a7ed292a67b64584bd8e6786d875ee954386ddb71d212c2b9281e7dd7cb0",
+          "bytes": 210618,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_01/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_01/solution.npz"
+        },
+        {
+          "relative_path": "stage_01/solver.log",
+          "sha256": "6f2e9c752f61271f892a9b948e5d838198018981af3d5298f49cfb0b33c6029b",
+          "bytes": 20300,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_01/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_01/solver.log"
+        },
+        {
+          "relative_path": "stage_01/state.json",
+          "sha256": "cf6a2ece1c03e0b341506f3612b5dc84f84117d60697f47b5b533e8287861e6e",
+          "bytes": 1590,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_01/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_01/state.json"
+        },
+        {
+          "relative_path": "stage_01/state.npz",
+          "sha256": "75725bb8b302812039b47b335739275c58585b6c7b1ca7e0b545dd5a7e021d90",
+          "bytes": 319352,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_01/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_01/state.npz"
+        },
+        {
+          "relative_path": "stage_01/summary.json",
+          "sha256": "853a9d9c2f27ff4dec154850a6b6e3a85b27dec2789afd9bff2c184071e46fc3",
+          "bytes": 1514,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_01/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_01/summary.json"
+        },
+        {
+          "relative_path": "stage_02/solution.npz",
+          "sha256": "8bd4fec278059d3909aca465f8498545230b743b5614da6f337192e43a759f16",
+          "bytes": 210728,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_02/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_02/solution.npz"
+        },
+        {
+          "relative_path": "stage_02/solver.log",
+          "sha256": "d52724ea05d676d547f00ef711592c1cdd372543025a25ca598fa6b09501d48f",
+          "bytes": 10206,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_02/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_02/solver.log"
+        },
+        {
+          "relative_path": "stage_02/state.json",
+          "sha256": "f30fd5389f3f49e0df36c9dfe14493739ad18148ff38fa8442fb3bf2d4ed0362",
+          "bytes": 1667,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_02/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_02/state.json"
+        },
+        {
+          "relative_path": "stage_02/state.npz",
+          "sha256": "ec70123b3236c3fc0805d300dbad0087b8dfcb8a930fe09890b8e918d7738f9b",
+          "bytes": 319436,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_02/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_02/state.npz"
+        },
+        {
+          "relative_path": "stage_02/summary.json",
+          "sha256": "6a9dc1c575faba26d99f72a86ed7b7a1d4b6e4c6df7d8aa47b2ec45cf1a24951",
+          "bytes": 1513,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_02/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_02/summary.json"
+        },
+        {
+          "relative_path": "stage_03/solution.npz",
+          "sha256": "bf2abe709d4fc016c56838221d456320ada99a488fc1e15ba542c825f82ac1e4",
+          "bytes": 210642,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_03/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_03/solution.npz"
+        },
+        {
+          "relative_path": "stage_03/solver.log",
+          "sha256": "5704f581467c3fa881448c7cdd198f5e92de84c7c8a63764227fc942a3edf5bc",
+          "bytes": 12010,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_03/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_03/solver.log"
+        },
+        {
+          "relative_path": "stage_03/state.json",
+          "sha256": "26a67ccdb270dbe3a68492108367e5a5b0d50d049e5127c3a8eacb4be02c1c5b",
+          "bytes": 1668,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_03/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_03/state.json"
+        },
+        {
+          "relative_path": "stage_03/state.npz",
+          "sha256": "68fd36001c1c5a29091974ce97fa63137507c214597959252c51720ea538fa90",
+          "bytes": 319295,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_03/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_03/state.npz"
+        },
+        {
+          "relative_path": "stage_03/summary.json",
+          "sha256": "02c199995443e2a863d99ed2d8791e214819130ad3d15b58d9a0a5c34bbf5ac4",
+          "bytes": 1516,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_03/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_03/summary.json"
+        },
+        {
+          "relative_path": "stage_04/solution.npz",
+          "sha256": "b321c6d8138884cf5b3fab30d7406581c60d16375aa6b1381b1290b4a6675f13",
+          "bytes": 210529,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_04/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_04/solution.npz"
+        },
+        {
+          "relative_path": "stage_04/solver.log",
+          "sha256": "7d6433bcfeeba8c8303fc7e98ce8c35d7c6ee67b9d72dbca2cebe22589303d40",
+          "bytes": 29484,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_04/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_04/solver.log"
+        },
+        {
+          "relative_path": "stage_04/state.json",
+          "sha256": "86f572b77a966b08ba3deba068053c011b5a81666ecbb6205bf0140599c811c5",
+          "bytes": 1670,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_04/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_04/state.json"
+        },
+        {
+          "relative_path": "stage_04/state.npz",
+          "sha256": "034aff9a4d763108faa9ea4ed9950ba3b14cd7c676e76cf4a11d5bd8722c7546",
+          "bytes": 318260,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_04/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_04/state.npz"
+        },
+        {
+          "relative_path": "stage_04/summary.json",
+          "sha256": "30a1d614ea1c2c386d64bba0777ff9a147b1b02cab11eb2c83e845b2554db8c8",
+          "bytes": 1514,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_04/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_04/summary.json"
+        },
+        {
+          "relative_path": "stage_05/solution.npz",
+          "sha256": "43ddb9681d75342c91a4c8285c9d1911dcbd1a2c816a57ec6fad141c68f2b0bc",
+          "bytes": 209997,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_05/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_05/solution.npz"
+        },
+        {
+          "relative_path": "stage_05/solver.log",
+          "sha256": "ece136fdbb33fce31714053bc5c1911936329ef162f7b72375594c6cb0b60f0c",
+          "bytes": 37602,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_05/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_05/solver.log"
+        },
+        {
+          "relative_path": "stage_05/state.json",
+          "sha256": "d36f7af590f03fddf4dd4469927ee3ca3cf70e19492dd648ee83b9005f85c278",
+          "bytes": 1665,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_05/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_05/state.json"
+        },
+        {
+          "relative_path": "stage_05/state.npz",
+          "sha256": "ff793642112977da8a938c0e111125e6b55f0ada7aea8bda05d7dda8754c5b12",
+          "bytes": 317570,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_05/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_05/state.npz"
+        },
+        {
+          "relative_path": "stage_05/summary.json",
+          "sha256": "56f3f047b42b0e0ff2639a12bac166d7b21817a61686e6fec8ae90ae8d2e6f20",
+          "bytes": 1514,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_05/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_05/summary.json"
+        },
+        {
+          "relative_path": "stage_06/solution.npz",
+          "sha256": "145b51ebab02dad01b8fa37cc1748e7aafbba1e8a0409ef7bb828569ecebdbd4",
+          "bytes": 209503,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_06/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_06/solution.npz"
+        },
+        {
+          "relative_path": "stage_06/solver.log",
+          "sha256": "48c1971f96fab2d5cc880f7bef9411fcf0f2506fed7ba97119aeaed3826c114c",
+          "bytes": 104193,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_06/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_06/solver.log"
+        },
+        {
+          "relative_path": "stage_06/state.json",
+          "sha256": "613a0e18ed923cd3b38cdbf558dce4dfdecb09e27d57d630ea98f23591ddb346",
+          "bytes": 1661,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_06/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_06/state.json"
+        },
+        {
+          "relative_path": "stage_06/state.npz",
+          "sha256": "314aa044cca1b9e79ccf1c7e07de952c65507ab03e701317eadd4dd171bfd8a4",
+          "bytes": 317706,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_06/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_06/state.npz"
+        },
+        {
+          "relative_path": "stage_06/summary.json",
+          "sha256": "ea52b89e9d7a701e34450504ab8241c2b3de79ca8551c4d036857696cfb81a1b",
+          "bytes": 1512,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_06/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_06/summary.json"
+        },
+        {
+          "relative_path": "stage_07/solution.npz",
+          "sha256": "90437788c3dd4761b9cde1487bd30a9b5d22249d86a7b9150878787750943628",
+          "bytes": 209572,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_07/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_07/solution.npz"
+        },
+        {
+          "relative_path": "stage_07/solver.log",
+          "sha256": "3abb1ece3d8d66db95506e40528216f8244d2cdab6a30261c2267337f9834ad1",
+          "bytes": 12423,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_07/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_07/solver.log"
+        },
+        {
+          "relative_path": "stage_07/state.json",
+          "sha256": "b33a30261dae2bd25be12df4ab8cc0c577574ef2811d712501b4afbab31907c3",
+          "bytes": 1670,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_07/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_07/state.json"
+        },
+        {
+          "relative_path": "stage_07/state.npz",
+          "sha256": "9a2d5aedb1dc89836b55c3bee7e0216915dcca1eb6058293be5f3084e94c6e3e",
+          "bytes": 317801,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_07/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_07/state.npz"
+        },
+        {
+          "relative_path": "stage_07/summary.json",
+          "sha256": "81e6ce72ad5810fd7b703df7b8fa67389ffa03becb3697cec484484d1bffc81d",
+          "bytes": 1516,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_07/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_07/summary.json"
+        },
+        {
+          "relative_path": "stage_08/solution.npz",
+          "sha256": "113c78dd3f4715d3c5483fbecd7034208f74be8f7b1aa8962c58de74680f1552",
+          "bytes": 209735,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_08/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_08/solution.npz"
+        },
+        {
+          "relative_path": "stage_08/solver.log",
+          "sha256": "2a3213476f765af11691e1a7c828e1e3b3ed0c91afeaaefeb67cf65e31c84c97",
+          "bytes": 17348,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_08/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_08/solver.log"
+        },
+        {
+          "relative_path": "stage_08/state.json",
+          "sha256": "c4290f5a6467b685dd66960c27c2562902b4d4817eea14b93ca6c2ed2eca1677",
+          "bytes": 1656,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_08/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_08/state.json"
+        },
+        {
+          "relative_path": "stage_08/state.npz",
+          "sha256": "b3e0855ae6034f9035b551a983b7f148af01fb1b9737dda91fddb1231169c812",
+          "bytes": 318033,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_08/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_08/state.npz"
+        },
+        {
+          "relative_path": "stage_08/summary.json",
+          "sha256": "c1820de1a9a4d879091929c83e45da49948a71fa6bf905dd0637a0864c8ec0a1",
+          "bytes": 1502,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_08/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_08/summary.json"
+        },
+        {
+          "relative_path": "stage_09/solution.npz",
+          "sha256": "40ed1696b95f25fa81d712cfb22a41bd21da0f01a059e92abf7b4e64a1c10d2d",
+          "bytes": 209840,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_09/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_09/solution.npz"
+        },
+        {
+          "relative_path": "stage_09/solver.log",
+          "sha256": "6dc99a09bff98f8c8e356e9a59d376fbc0cd5f6f30233fcf6396ab845cecdd63",
+          "bytes": 16446,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_09/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_09/solver.log"
+        },
+        {
+          "relative_path": "stage_09/state.json",
+          "sha256": "3cbbe4c867af1485895f894d54abe039d6dc5e4f2c5ede7e83a557fd27d945c9",
+          "bytes": 1667,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_09/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_09/state.json"
+        },
+        {
+          "relative_path": "stage_09/state.npz",
+          "sha256": "57072bf8ae2ae36120bf168b3ec79ca8d2bb579b6e8cbabbf44ca89f84367b0b",
+          "bytes": 318305,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_09/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_09/state.npz"
+        },
+        {
+          "relative_path": "stage_09/summary.json",
+          "sha256": "5f8a1546c3798b16f275b87774af63eb923d9f611cc8bffd7bf03d7c2bfb217a",
+          "bytes": 1516,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_09/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_09/summary.json"
+        },
+        {
+          "relative_path": "stage_10/solution.npz",
+          "sha256": "8a3a82d82cd11254b22ed59407a6e190f68550330fae7527dcbe18ece808482c",
+          "bytes": 209969,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_10/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_10/solution.npz"
+        },
+        {
+          "relative_path": "stage_10/solver.log",
+          "sha256": "0e3f546591cd239c87566395c6fd8365c98d5124c359282b6f38f43ea1b6ef16",
+          "bytes": 15872,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_10/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_10/solver.log"
+        },
+        {
+          "relative_path": "stage_10/state.json",
+          "sha256": "1005fd8cd4a1bcf6e8ea5cb47a5aa51fe293ac2d7a674d329db9ff7a93be68c7",
+          "bytes": 1669,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_10/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_10/state.json"
+        },
+        {
+          "relative_path": "stage_10/state.npz",
+          "sha256": "d3a1daf131d9bdab412ab45ca4a09a35491f91b888cd37597c823e336561924d",
+          "bytes": 318592,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_10/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_10/state.npz"
+        },
+        {
+          "relative_path": "stage_10/summary.json",
+          "sha256": "d5c547b40839e29a95ac6da8e3554326f40c10728e821b9235ca0d0cebd5e9c2",
+          "bytes": 1512,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_10/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_10/summary.json"
+        },
+        {
+          "relative_path": "stage_11/solution.npz",
+          "sha256": "1a2bd85e2cb930aed31cb9c27494c18e458281dd94e934da3e2fa0a99a9e4294",
+          "bytes": 210186,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_11/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_11/solution.npz"
+        },
+        {
+          "relative_path": "stage_11/solver.log",
+          "sha256": "0fc35900f7c4b281170e0020b6c2f7291fcd1be6daf13eedef152ca4325a178c",
+          "bytes": 42257,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_11/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_11/solver.log"
+        },
+        {
+          "relative_path": "stage_11/state.json",
+          "sha256": "0ecefe5a215b31d06d059f9e2bf37a8280967de2f93fce60260dacfe56b88240",
+          "bytes": 1674,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_11/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_11/state.json"
+        },
+        {
+          "relative_path": "stage_11/state.npz",
+          "sha256": "c3a0e74a7cdecb04d1f7b8b07c088b563e4bec131cb92de7171f574412fe9be9",
+          "bytes": 318888,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_11/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_11/state.npz"
+        },
+        {
+          "relative_path": "stage_11/summary.json",
+          "sha256": "7d1b2b1c43cf4aab7a80613ba5ce2341ba08eeb86627c33eacb5fc1fd8d6a8b7",
+          "bytes": 1514,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_11/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_11/summary.json"
+        },
+        {
+          "relative_path": "stage_12/solution.npz",
+          "sha256": "ce5a40f2701822d5465d2359b249b360f5c818d27bb2a3f21f01116b3e47f50c",
+          "bytes": 210363,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_12/solution.npz"
+        },
+        {
+          "relative_path": "stage_12/solver.log",
+          "sha256": "b709af5ecd2e02f35c57e47d32e386f3d212d096c0e88a047849745b682b896d",
+          "bytes": 40144,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_12/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_12/solver.log"
+        },
+        {
+          "relative_path": "stage_12/state.json",
+          "sha256": "f82537a41472d71e815c9473b37c3c6d549cb884c6fe944f6598a00321a3f3f1",
+          "bytes": 1654,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_12/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_12/state.json"
+        },
+        {
+          "relative_path": "stage_12/state.npz",
+          "sha256": "99e648b1350b3d67f9e0486d2da0147b014aa1f3a91bf4db1dd48513da50857b",
+          "bytes": 319190,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_12/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_12/state.npz"
+        },
+        {
+          "relative_path": "stage_12/summary.json",
+          "sha256": "a5d2cc321515a5f685a3c4b61cda904acdf355b7d0e47f1f58119fde7173f54b",
+          "bytes": 1503,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_12/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_12/summary.json"
+        },
+        {
+          "relative_path": "stage_13/solution.npz",
+          "sha256": "66117df2078688ec226fdb34824bfba3b00899ec67257f3f6a8298ea83f6840a",
+          "bytes": 210221,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_13/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_13/solution.npz"
+        },
+        {
+          "relative_path": "stage_13/solver.log",
+          "sha256": "d335dfaea47da7dc044353854f82b6a76045d84a5a7d270090f3a3dab308d79a",
+          "bytes": 27106,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_13/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_13/solver.log"
+        },
+        {
+          "relative_path": "stage_13/state.json",
+          "sha256": "729b844bc6c5e3a6e34343629706e96ead2b49a2c1eefc2595c61688330d1437",
+          "bytes": 1672,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_13/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_13/state.json"
+        },
+        {
+          "relative_path": "stage_13/state.npz",
+          "sha256": "6464a904373e9f87567f621d7aaffb61fbebb34a59e83ee73c2ed081860f9a6b",
+          "bytes": 318897,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_13/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_13/state.npz"
+        },
+        {
+          "relative_path": "stage_13/summary.json",
+          "sha256": "cfce0eff35e8d075be373a43ffad14437b8e4269f2948221e2b4cf58b61d77ee",
+          "bytes": 1520,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_13/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_13/summary.json"
+        },
+        {
+          "relative_path": "stage_14/solution.npz",
+          "sha256": "b8ffa66eb246dd2d0b0e6e111deac538a98dd0a77332ea0b0893d2ed4af49609",
+          "bytes": 210180,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_14/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_14/solution.npz"
+        },
+        {
+          "relative_path": "stage_14/solver.log",
+          "sha256": "72c701f7b73d8427ea8b41f35cee7895d1e68bbbd170ef780a0a6fd1f3653458",
+          "bytes": 52693,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_14/solver.log",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_14/solver.log"
+        },
+        {
+          "relative_path": "stage_14/state.json",
+          "sha256": "15284b337e34aafed033d023759632bf663e6faafb0bfa21b327f3fa95eb6976",
+          "bytes": 1667,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_14/state.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_14/state.json"
+        },
+        {
+          "relative_path": "stage_14/state.npz",
+          "sha256": "c460a62679e1d86ff6faddeb91ef21367fe6f69442af448dd8fbe48c574fff48",
+          "bytes": 318930,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_14/state.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_14/state.npz"
+        },
+        {
+          "relative_path": "stage_14/summary.json",
+          "sha256": "0221cce6beb2e495ce93eb1d139ca6382f62ad8f9529813e4527277d72f09405",
+          "bytes": 1519,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_14/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_14/summary.json"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "a9836a54b1c8dc30d0230bc5416c9d8ede648ec666592867ce52d6300442ae66",
+          "bytes": 3147,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "0221cce6beb2e495ce93eb1d139ca6382f62ad8f9529813e4527277d72f09405",
+          "bytes": 1519,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/summary.json"
+        },
+        {
+          "relative_path": "verification_comparison.json",
+          "sha256": "3606802331ac8690e66e224c35cf1034bebfecff8863447894e60eb9b5bce4d8",
+          "bytes": 1397,
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/verification_comparison.json",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/verification_comparison.json"
+        }
+      ],
+      "archive_root": "data/runs/gdp_mbb_uniform_rerun_20260910_090145",
+      "id": "gdp_mbb_uniform",
+      "figures": [
+        "Figure 2b (GDP)"
+      ],
+      "phase_field": "ys",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/gdp_mbb_uniform_rerun_20260910_090145/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_mbb_uniform_rerun_20260910_090145/solution.npz",
+          "sha256": "b8ffa66eb246dd2d0b0e6e111deac538a98dd0a77332ea0b0893d2ed4af49609"
+        }
+      ],
+      "selected_or_final_compliance": 225.13516627884113,
+      "recorded_status": "all 14 recorded continuation rows report optimal",
+      "warnings": [
+        "stage_00_initial is an initialization record, not an equilibrium solution."
+      ],
+      "file_count": 78,
+      "total_bytes": 8189415
+    },
+    {
+      "original_root": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100",
+      "files": [
+        {
+          "relative_path": "run_config.json",
+          "sha256": "01af9fdb16ddd428ba32cd278952c50a268fbe4fd5ab3f54d1e6c455e62d87df",
+          "bytes": 3557,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/run_config.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/run_config.json"
+        },
+        {
+          "relative_path": "solution.npz",
+          "sha256": "d7e5cbc55331b7da308a3c7e454eab10bfbf96401595808b15f9fb1e91707e99",
+          "bytes": 154149,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/solution.npz"
+        },
+        {
+          "relative_path": "stage_01_beta_12/oc_initialization_history.json",
+          "sha256": "b473d88a3de49b14fc8c827697965a9839052d161abfcf4888b8eb9d2dd14e02",
+          "bytes": 46497,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/oc_initialization_history.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/oc_initialization_history.json"
+        },
+        {
+          "relative_path": "stage_01_beta_12/oc_initialization_only.npz",
+          "sha256": "c0aca4ad9a68e0aacc8986637a0c7eac8463c47a317189ac5f7975d7df3c0d3d",
+          "bytes": 2208,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/oc_initialization_only.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/oc_initialization_only.npz"
+        },
+        {
+          "relative_path": "stage_01_beta_12/solution.npz",
+          "sha256": "d7e5cbc55331b7da308a3c7e454eab10bfbf96401595808b15f9fb1e91707e99",
+          "bytes": 154149,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/solution.npz"
+        },
+        {
+          "relative_path": "stage_01_beta_12/summary.json",
+          "sha256": "f3467fbfd6bb2d0fb70dc8233ab8adb3c8f995396cbde607c655c746ce8f6b75",
+          "bytes": 474,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/summary.json"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "821096d92287f3b1ee28bd41f8e37e887ace30c7e22aa3c8ecf97d0a6d2ea75c",
+          "bytes": 376,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "d68d4baefe7414f6b48fc0ec670efc0e00928f12b4b06af274b7a1cdd874b486",
+          "bytes": 4227,
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/summary.json",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/summary.json"
+        }
+      ],
+      "archive_root": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100",
+      "id": "simp_lbracket",
+      "figures": [
+        "Figure 2c (SIMP)"
+      ],
+      "phase_field": "physical_density",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/solution.npz",
+          "original_path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b12_oc_20260910_191100/stage_01_beta_12/solution.npz",
+          "sha256": "d7e5cbc55331b7da308a3c7e454eab10bfbf96401595808b15f9fb1e91707e99"
+        }
+      ],
+      "selected_or_final_compliance": 100.78958831838094,
+      "recorded_status": "selected beta 12: optimal and accepted",
+      "warnings": [
+        "oc_initialization_only.npz is a warm-start field, not the accepted full-space NLP solution.",
+        "run_config.json still records status=running; use the stage summary for recorded termination."
+      ],
+      "external_seed_record": {
+        "path": "D:/Case/TPO/results/simp_projected_lbracket_60x60_p3_b8_oc_20260910_191000/stage_01_beta_8/solution.npz",
+        "sha256": "f730ccdd23b76b19d9e68283d8d8fadfa8bce35d69756bd85151dfcaf907b473",
+        "included_in_this_seven_run_copy": false,
+        "hash_source": "original run_config.json; external seed itself was not copied or hash-verified in this data task"
+      },
+      "file_count": 8,
+      "total_bytes": 365637
+    },
+    {
+      "original_root": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2",
+      "files": [
+        {
+          "relative_path": "diagnostics.csv",
+          "sha256": "e2477ccb6ad18d17c9ecfdf66e46a3569ded693950544299e04942a8534b62de",
+          "bytes": 1891,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/diagnostics.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/diagnostics.csv"
+        },
+        {
+          "relative_path": "diagnostics.json",
+          "sha256": "d57f5e92c9d6819e73044a85fa2a2fe416206fc6965d5b210a4e2cc513d97dc9",
+          "bytes": 2250,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/diagnostics.json",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/diagnostics.json"
+        },
+        {
+          "relative_path": "metrics_summary.csv",
+          "sha256": "f3dea628bd5c471634826bc2668a6b840554f72fc546ad602489c2f2ed09ac15",
+          "bytes": 1156,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/metrics_summary.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/metrics_summary.csv"
+        },
+        {
+          "relative_path": "projected_grayness_metrics.csv",
+          "sha256": "c82a1e5440018c129216f10fdd3c327f8e097431a76ab61067424eadccd55491",
+          "bytes": 2220,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/projected_grayness_metrics.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/projected_grayness_metrics.csv"
+        },
+        {
+          "relative_path": "solution.npz",
+          "sha256": "6b05ce481055f6f3b826301ef12becf93b4d3f6b848aff0ead0d2ed06345f99e",
+          "bytes": 469527,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/solution.npz"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "d9ee038fa5d80815c6cfb02e65f8c4619ea1dba9ec3450c4f31294b6ccfc7b62",
+          "bytes": 2243,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/stage_history.csv",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/stage_history.csv"
+        },
+        {
+          "relative_path": "summary.json",
+          "sha256": "68e97b3d9e215b0bd6f3e3393bd570f879e250c9a5796bdefa6a6d0d53885587",
+          "bytes": 1524,
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/summary.json",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/summary.json"
+        }
+      ],
+      "archive_root": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2",
+      "id": "gdp_lbracket_original",
+      "figures": [
+        "Figure 2c (GDP)"
+      ],
+      "phase_field": "ys",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/solution.npz",
+          "original_path": "D:/Case/TPO/results/gdp_hull_relaxation_projected_weak_grayness_lbracket_60x60_uniform_p1_to_p2/solution.npz",
+          "sha256": "6b05ce481055f6f3b826301ef12becf93b4d3f6b848aff0ead0d2ed06345f99e"
+        }
+      ],
+      "selected_or_final_compliance": 100.08566088182933,
+      "recorded_status": "final zero-based stage_index 8 reports optimal",
+      "warnings": [
+        "Zero-based stage_index 5, 6, and 7 report maxIterations; these intermediate records are not certified converged solutions.",
+        "Zero-based stage_index 7 has grayness 0.05956486305416422, above its 0.015 limit.",
+        "completed_all_stages=true does not establish convergence of every stage.",
+        "Only final field data and stage scalar history are present in this original directory; earlier stage fields are not reconstructed.",
+        "The selected source retains the actual small hole; no filling, smoothing, thresholding, or field editing was performed."
+      ],
+      "preserved_field_check": {
+        "field": "ys",
+        "zero_based_index": 117,
+        "value": 0.029527456840006083,
+        "element_count": 2700
+      },
+      "file_count": 7,
+      "total_bytes": 480811
+    },
+    {
+      "original_root": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909",
+      "files": [
+        {
+          "relative_path": "all_stages_review_provenance.json",
+          "sha256": "0a7441a9b1dcbeda0cc44de09b780370f2b372c06e035b6940a5cf476cce2d1d",
+          "bytes": 34967,
+          "archive_path": "data/runs/solid_run_20260909/all_stages_review_provenance.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/all_stages_review_provenance.json"
+        },
+        {
+          "relative_path": "progress.json",
+          "sha256": "39293670e1e889f5b6e3537317bd7609309076e931510dd898338c5b8a0c96a3",
+          "bytes": 4720,
+          "archive_path": "data/runs/solid_run_20260909/progress.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/progress.json"
+        },
+        {
+          "relative_path": "run_config.json",
+          "sha256": "237fe84b505faa8d06a63a9fb06722870e8ecae81d16ee67b74dcc13751f26b4",
+          "bytes": 7149,
+          "archive_path": "data/runs/solid_run_20260909/run_config.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/run_config.json"
+        },
+        {
+          "relative_path": "run.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0,
+          "archive_path": "data/runs/solid_run_20260909/run.stderr.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/run.stderr.log"
+        },
+        {
+          "relative_path": "run.stdout.log",
+          "sha256": "eb3bc21d41ed29e8c9ec94e9d5e03ccbf2dc158be487a2e7ab3991ee36157aa9",
+          "bytes": 720644,
+          "archive_path": "data/runs/solid_run_20260909/run.stdout.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/run.stdout.log"
+        },
+        {
+          "relative_path": "stage_00_initial/state.json",
+          "sha256": "cf6f3bfc4314d18ad1a8533eec170e9f44da12134f4ccfc6b1c3c3aab64a1641",
+          "bytes": 1440,
+          "archive_path": "data/runs/solid_run_20260909/stage_00_initial/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_00_initial/state.json"
+        },
+        {
+          "relative_path": "stage_00_initial/state.npz",
+          "sha256": "a6321d0b905fc8e7b8ef46f1ef75b78caa1e15f2b501b416925b50845b262282",
+          "bytes": 73229,
+          "archive_path": "data/runs/solid_run_20260909/stage_00_initial/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_00_initial/state.npz"
+        },
+        {
+          "relative_path": "stage_01/solution.npz",
+          "sha256": "b918e74ff577ce34e43e5e7231ee92bc8564ff24a52806d3661610cc32a5a940",
+          "bytes": 198158,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/solution.npz"
+        },
+        {
+          "relative_path": "stage_01/solver.log",
+          "sha256": "9daeac5bfc56ee8ee63e5a26159d882f4e975075665353385bf85446361117ae",
+          "bytes": 30613,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/solver.log"
+        },
+        {
+          "relative_path": "stage_01/start/state.json",
+          "sha256": "6f166a44857c8f30437af0c5a20b2b3667c50041b6787cf86937625e2c3a8df5",
+          "bytes": 1444,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/start/state.json"
+        },
+        {
+          "relative_path": "stage_01/start/state.npz",
+          "sha256": "a6321d0b905fc8e7b8ef46f1ef75b78caa1e15f2b501b416925b50845b262282",
+          "bytes": 73229,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/start/state.npz"
+        },
+        {
+          "relative_path": "stage_01/state.json",
+          "sha256": "b1967cf0e9be6a4f97bed428bd39594dc12967a9c900f582beac3dee0ea7af9b",
+          "bytes": 1590,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/state.json"
+        },
+        {
+          "relative_path": "stage_01/state.npz",
+          "sha256": "029e16cc62ed46c5efd805c5c9bd3c5703ea53eb93de12ee3536722a5d8faf5d",
+          "bytes": 314083,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/state.npz"
+        },
+        {
+          "relative_path": "stage_01/summary.json",
+          "sha256": "a577e3a7cee6d1569ad34a9aacfcd6a0b0d013756f3802fd25b02a97dd35e808",
+          "bytes": 1521,
+          "archive_path": "data/runs/solid_run_20260909/stage_01/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/summary.json"
+        },
+        {
+          "relative_path": "stage_02/solution.npz",
+          "sha256": "6ac65224a159a84db3a92f60e100dba4aed21830d37c6a1165ecc6fdb6006817",
+          "bytes": 193422,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/solution.npz"
+        },
+        {
+          "relative_path": "stage_02/solver.log",
+          "sha256": "a791de2ae0d7d740299cbfce80d985933b27243c5378d67b462d64a2fa587e2e",
+          "bytes": 27743,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/solver.log"
+        },
+        {
+          "relative_path": "stage_02/start/state.json",
+          "sha256": "681538c821c465163e5211dc8c3f609e3495d1efd749251cd70a1ecc7b166238",
+          "bytes": 1612,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/start/state.json"
+        },
+        {
+          "relative_path": "stage_02/start/state.npz",
+          "sha256": "542cace9bc8b675ee9644be85d77eed29e2ce83f84e1e06db39e0e5af8aade3d",
+          "bytes": 313910,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/start/state.npz"
+        },
+        {
+          "relative_path": "stage_02/state.json",
+          "sha256": "eca6e7d9f2af8bb471c08580151aa7ebd35cfe5e71c05e62d99bb8fbb8a42137",
+          "bytes": 1705,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/state.json"
+        },
+        {
+          "relative_path": "stage_02/state.npz",
+          "sha256": "51d804b6eaf9efff9ddeb9e8897b7e8c52da312db43580cf4ecad1ecdcac2777",
+          "bytes": 305985,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/state.npz"
+        },
+        {
+          "relative_path": "stage_02/summary.json",
+          "sha256": "00a8527e6a7129b47803ec0f95cf968b46db4478a98a6c34e8d76678758132ca",
+          "bytes": 1524,
+          "archive_path": "data/runs/solid_run_20260909/stage_02/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/summary.json"
+        },
+        {
+          "relative_path": "stage_03/solution.npz",
+          "sha256": "2abd9b47b3019452c8ce2134f103df339c8d141764989b1c4896df66b3fec1bc",
+          "bytes": 196524,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/solution.npz"
+        },
+        {
+          "relative_path": "stage_03/solver.log",
+          "sha256": "c3f047c0e8bd0795a7ddedc9bc99b194cc263c1edba02e0afe10705c49cddb9e",
+          "bytes": 14131,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/solver.log"
+        },
+        {
+          "relative_path": "stage_03/start/state.json",
+          "sha256": "dc72d356583b1786d2b269af415d3ac8f20a2402ba33d364224953c1d3311efc",
+          "bytes": 1610,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/start/state.json"
+        },
+        {
+          "relative_path": "stage_03/start/state.npz",
+          "sha256": "037ebdea8efd8f6fb3aa61caf596f12adbcbba7d778dfce7a692be0a4ca6ffbe",
+          "bytes": 305846,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/start/state.npz"
+        },
+        {
+          "relative_path": "stage_03/state.json",
+          "sha256": "4241d8877b0ea8d3f0a9d9c4beeed4cfe07f670398f409e2a577f4487e8780c4",
+          "bytes": 1700,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/state.json"
+        },
+        {
+          "relative_path": "stage_03/state.npz",
+          "sha256": "7a766e05609557d824bea5e584a221ee6f16b7be2e41a53b179f0b1c5714b396",
+          "bytes": 311036,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/state.npz"
+        },
+        {
+          "relative_path": "stage_03/summary.json",
+          "sha256": "c8f3648117f8ec5f9ada760f288f32d292a28cee6dfda90a54ee2fd51d537683",
+          "bytes": 1521,
+          "archive_path": "data/runs/solid_run_20260909/stage_03/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/summary.json"
+        },
+        {
+          "relative_path": "stage_04/solution.npz",
+          "sha256": "0bede50578dd63e511e5439857ad906fe4ad9648f168d78f1ffcc97f7b4fde14",
+          "bytes": 202324,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/solution.npz"
+        },
+        {
+          "relative_path": "stage_04/solver.log",
+          "sha256": "3fe04eb2c0a10c438d19d434cf52c76a67bccacd356fc8aac494c7aab9a7db11",
+          "bytes": 31761,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/solver.log"
+        },
+        {
+          "relative_path": "stage_04/start/state.json",
+          "sha256": "f058eb71d231a16513f6576d34ce614597cf1db2fa2903db4d95f8d05d503af1",
+          "bytes": 1623,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/start/state.json"
+        },
+        {
+          "relative_path": "stage_04/start/state.npz",
+          "sha256": "6a789da64240672762d5f2ce6a73e3748d9e9159f68064f3f8eb22032bbf490a",
+          "bytes": 310860,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/start/state.npz"
+        },
+        {
+          "relative_path": "stage_04/state.json",
+          "sha256": "643c7cafd06981ca3eb9b734b381ca4b5cd83c7a2ed726ae00e581b3577c3ad2",
+          "bytes": 1707,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/state.json"
+        },
+        {
+          "relative_path": "stage_04/state.npz",
+          "sha256": "85a549793b62a894545c373a65346073242b85e05cbf5d8f28f92109e6831ecd",
+          "bytes": 317495,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/state.npz"
+        },
+        {
+          "relative_path": "stage_04/summary.json",
+          "sha256": "df84ed04038d46cf6898a50d1654e8dba762302d9418d6ba2c4299b002280fcc",
+          "bytes": 1523,
+          "archive_path": "data/runs/solid_run_20260909/stage_04/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/summary.json"
+        },
+        {
+          "relative_path": "stage_05/solution.npz",
+          "sha256": "bdb8c42710d07e5a1d8a0515bbeaaf16adc0cf3eadb0d3a6ee3c8e3ef67d3e5d",
+          "bytes": 201255,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/solution.npz"
+        },
+        {
+          "relative_path": "stage_05/solver.log",
+          "sha256": "b6b636c399419ed8f160829b91e8ffcc0a695f03ff56a528978a12a49b88dafd",
+          "bytes": 35615,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/solver.log"
+        },
+        {
+          "relative_path": "stage_05/start/state.json",
+          "sha256": "2284598ace2e9bba517085fe5c5dd89262a9f2b2178f17a790f0e03c9dccf8be",
+          "bytes": 1624,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/start/state.json"
+        },
+        {
+          "relative_path": "stage_05/start/state.npz",
+          "sha256": "a2e97c6d1872f4433e65cb8cbc1bbce39153561bfb890f36db4c76835debe0d5",
+          "bytes": 317193,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/start/state.npz"
+        },
+        {
+          "relative_path": "stage_05/state.json",
+          "sha256": "061c14e4c596b24a5f0a105a59397c0007e12fa710ae7f1e319bd73d12232907",
+          "bytes": 1704,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/state.json"
+        },
+        {
+          "relative_path": "stage_05/state.npz",
+          "sha256": "146d7598dca11b3132f9fc45b98fc34891f73acd6f9dbc61aeeb6253ec9ce667",
+          "bytes": 316079,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/state.npz"
+        },
+        {
+          "relative_path": "stage_05/summary.json",
+          "sha256": "5390375fc0907768eed95c6dd493afd0af02875854bd1d85b79cf5a659cc3f67",
+          "bytes": 1524,
+          "archive_path": "data/runs/solid_run_20260909/stage_05/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/summary.json"
+        },
+        {
+          "relative_path": "stage_06/solution.npz",
+          "sha256": "b751263f89200cd830a3be2aa1e3b409b502369e86ff8e4c7c50cbfbe9fbc5a0",
+          "bytes": 203010,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/solution.npz"
+        },
+        {
+          "relative_path": "stage_06/solver.log",
+          "sha256": "03ee489e97cbaf098e5105c1e3be39cca379fdef14b3b9e9a92e754239e9efe1",
+          "bytes": 60789,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/solver.log"
+        },
+        {
+          "relative_path": "stage_06/start/state.json",
+          "sha256": "08e6649a8f630bd3d980496d7f4e3431075183ca8b4a17693a510df5cc046baa",
+          "bytes": 1613,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/start/state.json"
+        },
+        {
+          "relative_path": "stage_06/start/state.npz",
+          "sha256": "43e10196054ce7cf41fa2f180e858280e3a77cb628b323df3fc1d2fa745373bc",
+          "bytes": 315999,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/start/state.npz"
+        },
+        {
+          "relative_path": "stage_06/state.json",
+          "sha256": "347e88910f1748d9713a43d83dfb51334e46fbe9dde7e9ddd00f4650a699cb00",
+          "bytes": 1703,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/state.json"
+        },
+        {
+          "relative_path": "stage_06/state.npz",
+          "sha256": "8414d3035954b149263341c02a0dcf44c331aad73f47fa9187fc25dfccaee0e8",
+          "bytes": 318285,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/state.npz"
+        },
+        {
+          "relative_path": "stage_06/summary.json",
+          "sha256": "791eaef2779bde9aa7e43f3ef01db99ba73cbf8a012c4600512a482db5869a7e",
+          "bytes": 1522,
+          "archive_path": "data/runs/solid_run_20260909/stage_06/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/summary.json"
+        },
+        {
+          "relative_path": "stage_07/solution.npz",
+          "sha256": "78e0b10bf6851ab61da9568203062219c94ecdf91f9a0c9c88d545976f69791a",
+          "bytes": 202076,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/solution.npz"
+        },
+        {
+          "relative_path": "stage_07/solver.log",
+          "sha256": "7911b6f289ce87f2e00214a7899817c553b3ea2556f51f95ee2438987c24ea13",
+          "bytes": 47013,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/solver.log"
+        },
+        {
+          "relative_path": "stage_07/start/state.json",
+          "sha256": "9c02ea8a0e4c0c9c419ffaf96d8979de27e91f3ec981eea5c8101095d8b2cefc",
+          "bytes": 1630,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/start/state.json"
+        },
+        {
+          "relative_path": "stage_07/start/state.npz",
+          "sha256": "fc89506ceab0de4165f80908f5be74fa74da6c751b760cf1baab329ea650cdd9",
+          "bytes": 318064,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/start/state.npz"
+        },
+        {
+          "relative_path": "stage_07/state.json",
+          "sha256": "7b531277d40ba49bf84ba736dac18741be79dbc7036d3a52d6f3d066fb60d70f",
+          "bytes": 1706,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/state.json"
+        },
+        {
+          "relative_path": "stage_07/state.npz",
+          "sha256": "1219ea000944e091ca9131ad67ab889505384d1227e53aaf1da8d739ac7d3e5c",
+          "bytes": 317203,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/state.npz"
+        },
+        {
+          "relative_path": "stage_07/summary.json",
+          "sha256": "ebb6931d9f6f2cca4a7988a3230f4917168941995873598da7121a3bc57da3b7",
+          "bytes": 1524,
+          "archive_path": "data/runs/solid_run_20260909/stage_07/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/summary.json"
+        },
+        {
+          "relative_path": "stage_08/solution.npz",
+          "sha256": "60f8ea0befd0ae5d72023e0e67d35e23c8883edc2d7f928b208819b5cdf8771c",
+          "bytes": 202483,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/solution.npz"
+        },
+        {
+          "relative_path": "stage_08/solver.log",
+          "sha256": "0adad22220845f7891191842204d41caea05edada9116078f12def2a7114c585",
+          "bytes": 14951,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/solver.log"
+        },
+        {
+          "relative_path": "stage_08/start/state.json",
+          "sha256": "4d1914fce533b71ee585e8db59ee6c249fc3cd86e4323bae324c08d0c1feee7c",
+          "bytes": 1633,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/start/state.json"
+        },
+        {
+          "relative_path": "stage_08/start/state.npz",
+          "sha256": "4c820e64e13b44c028986a51c4ae339d8f6b670f8740e87a4b8c53dfd7df7b87",
+          "bytes": 316877,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/start/state.npz"
+        },
+        {
+          "relative_path": "stage_08/state.json",
+          "sha256": "301abc34df93cb73c54242f9490c8921e28035c8ba0f8dcd0163afee3a3aa5a4",
+          "bytes": 1708,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/state.json"
+        },
+        {
+          "relative_path": "stage_08/state.npz",
+          "sha256": "b17bfcb3432c03f8348bb04c4413f1d284f0b0966ef2e1581f77fedc3e85c015",
+          "bytes": 317890,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/state.npz"
+        },
+        {
+          "relative_path": "stage_08/summary.json",
+          "sha256": "adf34212c99df24262537a66904a56d94f7475a3f472ca895c0c4bf11d25235f",
+          "bytes": 1523,
+          "archive_path": "data/runs/solid_run_20260909/stage_08/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/summary.json"
+        },
+        {
+          "relative_path": "stage_09/solution.npz",
+          "sha256": "9f7e5364938f28365f99f30f32a6639a4e195fb28d1a93738f9c1c2a21d746f0",
+          "bytes": 203016,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/solution.npz"
+        },
+        {
+          "relative_path": "stage_09/solver.log",
+          "sha256": "1f9aa44a533edc0fcad5b9609ba0cb11c269fd79aeb14951fca885a2e73303d3",
+          "bytes": 12737,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/solver.log"
+        },
+        {
+          "relative_path": "stage_09/start/state.json",
+          "sha256": "980da42b7d216b6d46cdf0cacc4d5afba431ec9a2cda63d89c2304620016d417",
+          "bytes": 1613,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/start/state.json"
+        },
+        {
+          "relative_path": "stage_09/start/state.npz",
+          "sha256": "654c9050aa36eed61bc6cf1634ed44b83cd1cfc2923130869ccc8aa638cffece",
+          "bytes": 317593,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/start/state.npz"
+        },
+        {
+          "relative_path": "stage_09/state.json",
+          "sha256": "e0631b61dfcf8b5ca304d1a476517cd066472f618d3986df9d80e934f16a9ea3",
+          "bytes": 1703,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/state.json"
+        },
+        {
+          "relative_path": "stage_09/state.npz",
+          "sha256": "f47d38ccc935149c2f3c4b627e71b10b0bd37782bd4e1f1847cbe2d6d7c0eaeb",
+          "bytes": 318803,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/state.npz"
+        },
+        {
+          "relative_path": "stage_09/summary.json",
+          "sha256": "569e0f92744ad97bd684894a672f1ca44574d03ca83c8eb6a9dc067e0eae49f1",
+          "bytes": 1522,
+          "archive_path": "data/runs/solid_run_20260909/stage_09/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/summary.json"
+        },
+        {
+          "relative_path": "stage_10/solution.npz",
+          "sha256": "e01e2ab1a16f41a424328cd37e6af0da01d61222d196d1fbe876b850390ed30c",
+          "bytes": 203253,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/solution.npz"
+        },
+        {
+          "relative_path": "stage_10/solver.log",
+          "sha256": "b4eafd1b8181a3c3b3b0d1f93e835e6872326cf5ff49c4a0a7af89638d3415df",
+          "bytes": 34549,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/solver.log"
+        },
+        {
+          "relative_path": "stage_10/start/state.json",
+          "sha256": "5bd638f51bc5a726363a3056b66907611f7117f7f1205e27422a112c249b930d",
+          "bytes": 1633,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/start/state.json"
+        },
+        {
+          "relative_path": "stage_10/start/state.npz",
+          "sha256": "df279fa3e8018aa6acf5919b9ba288717fab9ec776733feb66d118be6e2946dc",
+          "bytes": 318497,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/start/state.npz"
+        },
+        {
+          "relative_path": "stage_10/state.json",
+          "sha256": "8e2827834fc01304da4e209cd2d3c6fab50a82b53cfdaa949e7307f31e90257c",
+          "bytes": 1690,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/state.json"
+        },
+        {
+          "relative_path": "stage_10/state.npz",
+          "sha256": "6f346a58dd88f274de5f8c302e8a45b9e3992add46db76b89df69db89e1a379f",
+          "bytes": 319135,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/state.npz"
+        },
+        {
+          "relative_path": "stage_10/summary.json",
+          "sha256": "c4c20385797d9caec7729945ce613c77ecfaf327d6448cb82c03f33b32e5d5b6",
+          "bytes": 1510,
+          "archive_path": "data/runs/solid_run_20260909/stage_10/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/summary.json"
+        },
+        {
+          "relative_path": "stage_11/solution.npz",
+          "sha256": "61bcf0ff1cc2b372256c5cd0c437232a2fb871dd14896295ce3779260949efc8",
+          "bytes": 205003,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/solution.npz"
+        },
+        {
+          "relative_path": "stage_11/solver.log",
+          "sha256": "841ceb99ed214a341453639b38430f0e86440603ffd5b9efc89d692b684daf29",
+          "bytes": 111815,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/solver.log"
+        },
+        {
+          "relative_path": "stage_11/start/state.json",
+          "sha256": "889f002ea323c1936fe78bfb93231f8a1ba357ecae79ac1508ed2327f94144ac",
+          "bytes": 1638,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/start/state.json"
+        },
+        {
+          "relative_path": "stage_11/start/state.npz",
+          "sha256": "98151ac378bb1158522af514bacc82002c11a0cbd18e81d9a8ee9c33d5db0b65",
+          "bytes": 318928,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/start/state.npz"
+        },
+        {
+          "relative_path": "stage_11/state.json",
+          "sha256": "da8b5fe7b7de7ec5dc4baafd66672e999c76b9a9e3fe4748b9b8a2cddb08702f",
+          "bytes": 1718,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/state.json"
+        },
+        {
+          "relative_path": "stage_11/state.npz",
+          "sha256": "83f93d146444a07ad00173e361cd58280e65480cbc064267d71ea96bde2b10a1",
+          "bytes": 321434,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/state.npz"
+        },
+        {
+          "relative_path": "stage_11/summary.json",
+          "sha256": "e32d5372a88ac6d20fe783e4483322f4e92f6296069e0e3a58bd12467d78958b",
+          "bytes": 1529,
+          "archive_path": "data/runs/solid_run_20260909/stage_11/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/summary.json"
+        },
+        {
+          "relative_path": "stage_12/solution.npz",
+          "sha256": "d185bf4b77d3218a9f78beeb88df1a298ef201ceee9466f40813d8fad2694702",
+          "bytes": 205057,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/solution.npz"
+        },
+        {
+          "relative_path": "stage_12/solver.log",
+          "sha256": "64a4562d4353346f5ce05275f506bc994bd72af03ed7d4098603d28bb442dddd",
+          "bytes": 111815,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/solver.log"
+        },
+        {
+          "relative_path": "stage_12/start/state.json",
+          "sha256": "89ffdc9a631e41f3e512e794dd330ba26c9e5561bff4a3ea53ac87a62148df76",
+          "bytes": 1616,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/start/state.json"
+        },
+        {
+          "relative_path": "stage_12/start/state.npz",
+          "sha256": "68a7c9a71abdc0b3747a2e6bc672d456c81a6dc550521633f0bb4abfce642d44",
+          "bytes": 321378,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/start/state.npz"
+        },
+        {
+          "relative_path": "stage_12/state.json",
+          "sha256": "2fbf8235055545b460421c6b1bb8ea55a3dd32e2516b9ca649a5104af5ae6408",
+          "bytes": 1733,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/state.json"
+        },
+        {
+          "relative_path": "stage_12/state.npz",
+          "sha256": "b9a3ed9cbf684edde565dbd08e4e96a1e55a673379fa5cf773ffb1356598f604",
+          "bytes": 321505,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/state.npz"
+        },
+        {
+          "relative_path": "stage_12/summary.json",
+          "sha256": "0f41e20ba5e570678c0fbf0882d89a685e4a167e022eb5000accfda248914f5e",
+          "bytes": 1524,
+          "archive_path": "data/runs/solid_run_20260909/stage_12/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/summary.json"
+        },
+        {
+          "relative_path": "stage_13/solution.npz",
+          "sha256": "6681147de5002b5d9e1343a168da6b37b370df1dc3036685876594ca70cf852e",
+          "bytes": 203492,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/solution.npz"
+        },
+        {
+          "relative_path": "stage_13/solver.log",
+          "sha256": "9e489c399ea411ef4230188cc62282430768c8977fa3768f50688d3dc6e0b2e5",
+          "bytes": 111815,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/solver.log"
+        },
+        {
+          "relative_path": "stage_13/start/state.json",
+          "sha256": "5a7a425c8eb0e97cbf67f239a7df4877f7e5edc34580248ffe63366f2ef604cc",
+          "bytes": 1619,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/start/state.json"
+        },
+        {
+          "relative_path": "stage_13/start/state.npz",
+          "sha256": "0cd1c7c70e089e12073a8b9d25eb6286c4ae8eec0e5a10d840a83b00cd98c561",
+          "bytes": 321381,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/start/state.npz"
+        },
+        {
+          "relative_path": "stage_13/state.json",
+          "sha256": "6fd936bce747944fdff39336898bda0b53bf0c4f05c98376517c816e0e058064",
+          "bytes": 1721,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/state.json"
+        },
+        {
+          "relative_path": "stage_13/state.npz",
+          "sha256": "f4c38b0d4f18213c7273b3d4bf679fa57a1940258a07e07999fec160fc1a439e",
+          "bytes": 319369,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/state.npz"
+        },
+        {
+          "relative_path": "stage_13/summary.json",
+          "sha256": "3fc4400145f75351fee2d04789d69c28a5b74711e58da62a3e9ca12ec0798923",
+          "bytes": 1529,
+          "archive_path": "data/runs/solid_run_20260909/stage_13/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/summary.json"
+        },
+        {
+          "relative_path": "stage_14/solution.npz",
+          "sha256": "4f7c82377412e0c41a582a24d27127c9db6410a3d32e9386dd93441a7e3e0c49",
+          "bytes": 203351,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/solution.npz"
+        },
+        {
+          "relative_path": "stage_14/solver.log",
+          "sha256": "f51173574c0d331cdcf970f439d8e9d46dad4e6cd28f7b0e0ab48de4613898f8",
+          "bytes": 73010,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/solver.log",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/solver.log"
+        },
+        {
+          "relative_path": "stage_14/start/state.json",
+          "sha256": "741edff49ae80a4ebbd8bc8ce10470adde6305aef3080b4964dfd4d4f3a1392c",
+          "bytes": 1637,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/start/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/start/state.json"
+        },
+        {
+          "relative_path": "stage_14/start/state.npz",
+          "sha256": "fc990ef072334b952e6c00e81c1a6032133eec8431ec15c99e6bb38bb264afe7",
+          "bytes": 319222,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/start/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/start/state.npz"
+        },
+        {
+          "relative_path": "stage_14/state.json",
+          "sha256": "a64991e91859fe892cb353c363986e4afd2a19dfc3745403c268339155d1adb2",
+          "bytes": 1705,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/state.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/state.json"
+        },
+        {
+          "relative_path": "stage_14/state.npz",
+          "sha256": "366cea9633f95076024cd93b65198759504c8ba15ed541894d8e1d5c8145e97a",
+          "bytes": 319157,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/state.npz"
+        },
+        {
+          "relative_path": "stage_14/summary.json",
+          "sha256": "20e053754e222d0b33873a70fd881eb8dad4aeaed11cdac16f4989970980e57f",
+          "bytes": 1526,
+          "archive_path": "data/runs/solid_run_20260909/stage_14/summary.json",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/summary.json"
+        },
+        {
+          "relative_path": "stage_history.csv",
+          "sha256": "5203f0783b98ca5e2424d3ff02699dc64ed256e5eed2b3bbcc95d7ef7d19f81f",
+          "bytes": 3211,
+          "archive_path": "data/runs/solid_run_20260909/stage_history.csv",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_history.csv"
+        }
+      ],
+      "archive_root": "data/runs/solid_run_20260909",
+      "id": "gdp_cantilever_14stage",
+      "figures": [
+        "Figure 1c",
+        "Figure 2e"
+      ],
+      "phase_field": "ys",
+      "selected_field_files": [
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_00_initial/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_00_initial/state.npz",
+          "sha256": "a6321d0b905fc8e7b8ef46f1ef75b78caa1e15f2b501b416925b50845b262282"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_01/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/state.npz",
+          "sha256": "029e16cc62ed46c5efd805c5c9bd3c5703ea53eb93de12ee3536722a5d8faf5d"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_04/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/state.npz",
+          "sha256": "85a549793b62a894545c373a65346073242b85e05cbf5d8f28f92109e6831ecd"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_05/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/state.npz",
+          "sha256": "146d7598dca11b3132f9fc45b98fc34891f73acd6f9dbc61aeeb6253ec9ce667"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_07/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/state.npz",
+          "sha256": "1219ea000944e091ca9131ad67ab889505384d1227e53aaf1da8d739ac7d3e5c"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_14/state.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/state.npz",
+          "sha256": "366cea9633f95076024cd93b65198759504c8ba15ed541894d8e1d5c8145e97a"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_01/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_01/solution.npz",
+          "sha256": "b918e74ff577ce34e43e5e7231ee92bc8564ff24a52806d3661610cc32a5a940"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_02/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_02/solution.npz",
+          "sha256": "6ac65224a159a84db3a92f60e100dba4aed21830d37c6a1165ecc6fdb6006817"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_03/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_03/solution.npz",
+          "sha256": "2abd9b47b3019452c8ce2134f103df339c8d141764989b1c4896df66b3fec1bc"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_04/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_04/solution.npz",
+          "sha256": "0bede50578dd63e511e5439857ad906fe4ad9648f168d78f1ffcc97f7b4fde14"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_05/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_05/solution.npz",
+          "sha256": "bdb8c42710d07e5a1d8a0515bbeaaf16adc0cf3eadb0d3a6ee3c8e3ef67d3e5d"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_06/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_06/solution.npz",
+          "sha256": "b751263f89200cd830a3be2aa1e3b409b502369e86ff8e4c7c50cbfbe9fbc5a0"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_07/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_07/solution.npz",
+          "sha256": "78e0b10bf6851ab61da9568203062219c94ecdf91f9a0c9c88d545976f69791a"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_08/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_08/solution.npz",
+          "sha256": "60f8ea0befd0ae5d72023e0e67d35e23c8883edc2d7f928b208819b5cdf8771c"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_09/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_09/solution.npz",
+          "sha256": "9f7e5364938f28365f99f30f32a6639a4e195fb28d1a93738f9c1c2a21d746f0"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_10/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_10/solution.npz",
+          "sha256": "e01e2ab1a16f41a424328cd37e6af0da01d61222d196d1fbe876b850390ed30c"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_11/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_11/solution.npz",
+          "sha256": "61bcf0ff1cc2b372256c5cd0c437232a2fb871dd14896295ce3779260949efc8"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_12/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_12/solution.npz",
+          "sha256": "d185bf4b77d3218a9f78beeb88df1a298ef201ceee9466f40813d8fad2694702"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_13/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_13/solution.npz",
+          "sha256": "6681147de5002b5d9e1343a168da6b37b370df1dc3036685876594ca70cf852e"
+        },
+        {
+          "archive_path": "data/runs/solid_run_20260909/stage_14/solution.npz",
+          "original_path": "C:/Users/JQ/Documents/拓扑优化/paper/figures/figure_1/panel_c/solid_run_20260909/stage_14/solution.npz",
+          "sha256": "4f7c82377412e0c41a582a24d27127c9db6410a3d32e9386dd93441a7e3e0c49"
+        }
+      ],
+      "selected_or_final_compliance": 209.1540444077738,
+      "recorded_status": "stages 1-10 and 14: optimal; stages 11-13: maxIterations",
+      "warnings": [
+        "Initial state is unsolved and is not an equilibrium or volume-feasible solution.",
+        "Stages 11-13 are retained unsuccessful intermediate solver iterates, not certified solutions.",
+        "Stage 12 grayness 0.023112188906113 exceeds its 0.02 limit.",
+        "completed_all_stages=true does not establish convergence of every stage.",
+        "Figure 2e uses all 14 solved-stage records, with C_k/C_1 normalization; the unsolved initial state is excluded from its curve.",
+        "This run is separate from the 8-stage Figure 2a/Figure 2d GDP run; the two final compliance values and topologies differ."
+      ],
+      "file_count": 106,
+      "total_bytes": 13080237
+    }
+  ]
+}

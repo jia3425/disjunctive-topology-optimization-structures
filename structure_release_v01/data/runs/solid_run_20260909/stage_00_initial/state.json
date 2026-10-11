@@ -1,0 +1,42 @@
+{
+  "stage_index": 0,
+  "stage": {
+    "penalty": 0,
+    "grayness_limit": 0.96,
+    "heaviside_beta": 1,
+    "solid_displacement_coupling_penalty": 0.0,
+    "solid_displacement_coupling_phase_law": "simp",
+    "solid_displacement_coupling_phase_exponent": 1,
+    "solid_displacement_coupling_ramp_q": 8.0,
+    "solid_displacement_coupling_norm": "bound",
+    "solid_displacement_coupling_mode": "equality"
+  },
+  "previous_stage": 0,
+  "initial_source": "uniform",
+  "local_displacement_reinitialized": false,
+  "kind": "initial",
+  "termination_condition": "not_run",
+  "volume_fraction": 0.39216155139542064,
+  "global_grayness": 0.95348347601023,
+  "continuous_compliance": 0.0,
+  "ys_min": 0.39216155139542047,
+  "ys_max": 0.3921615513954208,
+  "max_constraint_violation": 117.85497488336551,
+  "max_bound_violation": 0.0,
+  "constraint_group_max": {
+    "phase_sum": 0.0,
+    "phase_filter_definition": 0.37836116248912155,
+    "heaviside_projection_definition": 0.0,
+    "solid_lower": 0.0,
+    "solid_upper": 0.0,
+    "void_lower": 0.0,
+    "void_upper": 0.0,
+    "equilibrium": 1.0,
+    "volume_constraint": 0.023515345813731603,
+    "full_solid_compliance_lower_bound": 117.85497488336551,
+    "load_direction": 0.0,
+    "grayness_constraint": 0.0,
+    "gdp_solid_displacement_map_equalities": 0.0
+  },
+  "field_sha256": "a6321d0b905fc8e7b8ef46f1ef75b78caa1e15f2b501b416925b50845b262282"
+}
